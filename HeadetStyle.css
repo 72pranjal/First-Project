@@ -1,0 +1,167 @@
+.upper-header {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #fbf7ea;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.inner-flex {
+  display: flex;
+}
+
+.search-bar {
+  height: 30px;
+  width: auto;
+}
+
+.title {
+  height: 60px;
+  width: auto;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.layer2 {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.group-image-container {
+  display: flex;
+  margin: 0px 90px;
+}
+
+.four-group {
+  width: 250px;
+  margin-left: 20px;
+}
+
+.kurta-name {
+  text-align: center;
+  color: #242424;
+}
+
+.new-arrivals {
+  background-color: #faf4dd;
+  height: 500px;
+  width: 100%;
+}
+
+.curvy-style {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.every-occasion {
+  display: flex;
+  margin: 0px 80px;
+  justify-content: space-between;
+}
+
+.occasion-image {
+  width: 350px;
+  height: 400px;
+}
+
+.sellers-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 450px;
+  margin-bottom: 20px;
+}
+
+.sellers-container {
+  display: flex;
+  padding: 0px 50px;
+}
+
+.sellers-images {
+  width: 250px;
+  height: auto;
+}
+
+.left-right-arrow {
+  height: 50px;
+  margin-top: 130px;
+}
+
+.footer {
+  background-image: url("assets/Group\ 38.png");
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.input-box {
+  width: 350px;
+  padding: 15px;
+}
+
+.submit-btn {
+  height: 50px;
+  width: 120px;
+  background-color: red;
+  color: white;
+}
+
+.footer-link {
+  background-color: hsla(48, 74%, 92%, 1);
+  height: 350px;
+  margin: 0px 150px;
+}
+
+.links-flex {
+  display: flex;
+  padding-left: 80px;
+  padding-right: 100px;
+  padding-top: 40px;
+  justify-content: space-between;
+  color: hsla(0, 0%, 14%, 1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-size: 20px;
+  color: hsla(0, 0%, 14%, 1);
+}
+
+.company-logo {
+  margin: 20px 140px;
+  justify-content: space-between;
+  display: flex;
+  color: hsla(180, 1%, 62%, 1);
+}
+
+/* SPECIAL DEALS Section.................................... */
+.special-deals {
+   background-image: url("assets/Layer 2 copy 3.png");
+   width: 100%;
+   height: 200px;
+   margin: 50px 0px;
+}
