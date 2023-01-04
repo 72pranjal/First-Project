@@ -1,4 +1,11 @@
+/* <!-- Upper Header Image............................... --> */
 .upper-header {
+  background-image: url("assets/header_strip.png");
+  width: 100%;
+  height: auto;
+}
+
+.background-image {
   width: 100%;
   height: auto;
 }
@@ -7,28 +14,58 @@ body {
   background-color: #fbf7ea;
 }
 
+/* search input box */
+.search-container {
+  width: 32%;
+  display: flex;
+}
+
+.image-container {
+  width: 32%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  margin-right: -40px;
+  background-color: rgba(251, 247, 234, 1);
+}
+
+.input-container {
+  width: 80%;
+}
+.search-icon {
+  height: 16px;
+  margin: 2px;
+}
+.search-icon-container {
+  text-align: center;
+  padding-top: 10px;
+  width: 20px;
+}
+
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 }
 
 .inner-flex {
+  width: 32%;
   display: flex;
-}
-
-.search-bar {
-  height: 30px;
-  width: auto;
+  column-gap: 20px;
 }
 
 .title {
-  height: 60px;
-  width: auto;
+  width: 80%;
 }
 
+/* Nav bar.......................... */
 .nav-bar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 180px;
   padding-right: 180px;
@@ -52,14 +89,19 @@ a {
   padding-bottom: 100px;
 }
 
+/* pic your mood................ */
 .group-image-container {
   display: flex;
-  margin: 0px 90px;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.child-container {
+  width: 23%;
 }
 
 .four-group {
-  width: 250px;
-  margin-left: 20px;
+  width: 100%;
 }
 
 .kurta-name {
@@ -73,25 +115,83 @@ a {
   width: 100%;
 }
 
+/* <!-- Curvy Style................................................... --> */
 .curvy-style {
-  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
   width: 100%;
   margin-bottom: 50px;
 }
 
-.every-occasion {
+.first-child {
+  width: 48%;
+  padding: 40px;
+}
+
+.second-child {
+  width: 48%;
+}
+
+.inner-child {
   display: flex;
-  margin: 0px 80px;
   justify-content: space-between;
 }
 
+.shop-plus-size {
+    width: 40%;
+}
+
+.shop-button {
+  background-color: #c9211e;
+  color: white;
+  padding: 10px 30px;
+  width: 100%;
+}
+
+.plus-size-image {
+  position: relative;
+}
+
+.lotus-image-container {
+  position: absolute;
+  bottom: -40px;
+  left: -150px;
+}
+
+.second-child {
+  position: relative;
+  top: 150px;
+
+}
+
+.child-image {
+  position: absolute;
+  bottom: 0px;
+   top: 0px;
+  right: 200px; 
+  
+}
+
+/* style for every-occasion section................ */
+.every-occasion {
+  display: flex;
+  margin: 0px 40px;
+  justify-content: space-between;
+}
+
+.occasion-child-container {
+  width: 30%;
+}
+
 .occasion-image {
-  width: 350px;
-  height: 400px;
+  width: 100%;
+  height: auto;
 }
 
 .sellers-nav-bar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0px 450px;
   margin-bottom: 20px;
@@ -112,32 +212,39 @@ a {
   margin-top: 130px;
 }
 
+/* <!-- Footer....................................... --> */
 .footer {
   background-image: url("assets/Group\ 38.png");
   margin-bottom: 50px;
   padding: 20px;
+  height: auto;
 }
 
+.action-container {
+  text-align: center;
+  padding: 25px 0px;
+}
 .input-box {
-  width: 350px;
-  padding: 15px;
+  width: 40%;
+  padding: 14px;
 }
 
 .submit-btn {
-  height: 50px;
-  width: 120px;
+  width: 10%;
+  padding: 14px;
   background-color: red;
   color: white;
 }
 
 .footer-link {
   background-color: hsla(48, 74%, 92%, 1);
-  height: 350px;
-  margin: 0px 150px;
+  height: auto;
+  margin: 0px 30px;
 }
 
 .links-flex {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 80px;
   padding-right: 100px;
   padding-top: 40px;
@@ -155,13 +262,74 @@ a {
   margin: 20px 140px;
   justify-content: space-between;
   display: flex;
+  flex-wrap: wrap;
   color: hsla(180, 1%, 62%, 1);
 }
 
-/* SPECIAL DEALS Section.................................... */
+/* SPECIAL DEALS Section Style.................................... */
 .special-deals {
-   background-image: url("assets/Layer 2 copy 3.png");
-   width: 100%;
-   height: 200px;
-   margin: 50px 0px;
+  background-image: url("assets/Layer 2 copy 3.png");
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+  padding: 30px 0px;
+}
+
+.card-flex {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-card {
+  height: auto;
+  width: 23%;
+  padding: 12px;
+  background: brown;
+  color: white;
+}
+
+/* First Look Section Style.................................... */
+.first-look-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.child-containers {
+  width: 18%;
+}
+
+.first-look-images {
+  width: 100%;
+}
+
+/* user source style.................................. */
+.user-source {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 80px 250px;
+}
+
+.source-text {
+  color: rgba(36, 36, 36, 1);
+  padding: 25px 0px;
+  font-size: 14px;
+}
+
+/* HUES OF THE SEASON STYLE............... */
+.huse-bg-image {
+  background-image: url("assets/Layer\ 2\ copy\ 3.png");
+  padding: 40px 0px;
+}
+
+.huse-seson-container {
+  display: flex;
+  padding: 0px 80px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: space-between;
+  margin-top: 10px;
 }
