@@ -14,6 +14,38 @@ body {
   background-color: #fbf7ea;
 }
 
+.main-title {
+    font-size: 30px;
+    color: #242424;
+    text-align: center;
+    margin: 0px;
+}
+
+.sub-title {
+    text-align: center; 
+    color: #545454;
+    margin: 0px;
+}
+
+.upper-header-title {
+    color: #FAF4DD;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px 0px;
+}
+
+.side-nav-icon {
+   display: none;
+}
+
+.profile-icon {
+   display: none;
+}
+
+.action-container {
+    display: block;
+}
+
 /* search input box */
 .search-container {
   width: 32%;
@@ -22,6 +54,10 @@ body {
 
 .image-container {
   width: 32%;
+}
+
+.show-in-mobile {
+    display: none;
 }
 
 .search-input {
@@ -47,7 +83,7 @@ body {
 
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   padding: 30px;
 }
@@ -63,6 +99,9 @@ body {
 }
 
 /* Nav bar.......................... */
+.nav-bar-container {
+    display: block;
+}
 .nav-bar {
   display: flex;
   flex-wrap: wrap;
@@ -70,6 +109,10 @@ body {
   padding-left: 180px;
   padding-right: 180px;
 }
+
+.show-in-mobileView {
+    display: none;
+   }
 
 li {
   list-style-type: none;
