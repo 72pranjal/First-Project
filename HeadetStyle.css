@@ -4,46 +4,38 @@
   width: 100%;
   height: auto;
 }
-
 .background-image {
   width: 100%;
   height: auto;
 }
-
 body {
   background-color: #fbf7ea;
 }
-
 .main-title {
-    font-size: 30px;
-    color: #242424;
-    text-align: center;
-    margin: 0px;
+  font-size: 30px;
+  color: #242424;
+  text-align: center;
+  margin: 0px;
 }
-
 .sub-title {
-    text-align: center; 
-    color: #545454;
-    margin: 0px;
+  text-align: center;
+  color: #545454;
+  margin: 0px;
 }
-
 .upper-header-title {
-    color: #FAF4DD;
-    text-align: center;
-    font-size: 14px;
-    padding: 6px 0px;
+  color: #faf4dd;
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 0px;
 }
-
 .side-nav-icon {
-   display: none;
+  display: none;
 }
-
 .profile-icon {
-   display: none;
+  display: none;
 }
-
 .action-container {
-    display: block;
+  display: block;
 }
 
 /* search input box */
@@ -51,15 +43,12 @@ body {
   width: 32%;
   display: flex;
 }
-
 .image-container {
   width: 32%;
 }
-
 .show-in-mobile {
-    display: none;
+  display: none;
 }
-
 .search-input {
   width: 100%;
   padding: 12px;
@@ -67,7 +56,6 @@ body {
   margin-right: -40px;
   background-color: rgba(251, 247, 234, 1);
 }
-
 .input-container {
   width: 80%;
 }
@@ -80,27 +68,23 @@ body {
   padding-top: 10px;
   width: 20px;
 }
-
 .flex-container {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   padding: 30px;
 }
-
 .inner-flex {
   width: 32%;
   display: flex;
   column-gap: 20px;
 }
-
 .title {
   width: 80%;
 }
 
 /* Nav bar.......................... */
 .nav-bar-container {
-    display: block;
+  display: block;
 }
 .nav-bar {
   display: flex;
@@ -109,22 +93,18 @@ body {
   padding-left: 180px;
   padding-right: 180px;
 }
-
 .show-in-mobileView {
-    display: none;
-   }
-
+  display: none;
+}
 li {
   list-style-type: none;
   line-height: 25px;
 }
-
 a {
   text-decoration: none;
   color: black;
   font-size: 16px;
 }
-
 .layer2 {
   width: 100%;
   height: auto;
@@ -132,31 +112,60 @@ a {
   padding-bottom: 100px;
 }
 
+/* back ground image............................... */
+.bg-container {
+  position: relative;
+}
+.right-arrow-container {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 20px;
+}
+.left-arrow-container {
+  position: absolute;
+  top: 55%;
+  bottom: 45%;
+  left: 20px;
+  transform: rotate(180deg);
+}
+.arrow {
+  width: 80%;
+}
+
 /* pic your mood................ */
 .group-image-container {
   display: flex;
   justify-content: space-between;
-  margin: 0px 20px;
+  margin: 20px 20px;
 }
-
 .child-container {
   width: 23%;
 }
-
 .four-group {
   width: 100%;
 }
-
 .kurta-name {
   text-align: center;
   color: #242424;
 }
 
+/* <!-- New Arrivals................................................... --> */
 .new-arrivals {
   background-color: #faf4dd;
-  height: 500px;
+  padding: 20px 0px;
+  height: auto;
   width: 100%;
 }
+.owl-carousel {
+    margin: 20px 0px;
+}
+/* .images-container {
+   width: 23%;
+}
+.arrivals-images {
+    width: 20%;
+} */
 
 /* <!-- Curvy Style................................................... --> */
 .curvy-style {
@@ -166,90 +175,76 @@ a {
   width: 100%;
   margin-bottom: 50px;
 }
-
 .first-child {
   width: 48%;
   padding: 40px;
 }
-
 .second-child {
   width: 48%;
 }
-
 .inner-child {
   display: flex;
   justify-content: space-between;
 }
-
 .shop-plus-size {
-    width: 40%;
+  width: 40%;
 }
-
 .shop-button {
   background-color: #c9211e;
   color: white;
   padding: 10px 30px;
   width: 100%;
 }
-
 .plus-size-image {
   position: relative;
 }
-
 .lotus-image-container {
   position: absolute;
   bottom: -40px;
   left: -150px;
 }
-
 .second-child {
   position: relative;
   top: 150px;
-
 }
-
 .child-image {
   position: absolute;
   bottom: 0px;
-   top: 0px;
-  right: 200px; 
-  
+  top: 0px;
+  right: 200px;
 }
 
 /* style for every-occasion section................ */
+.main-occasion-container {
+    margin: 20px 0px;
+}
 .every-occasion {
   display: flex;
-  margin: 0px 40px;
+  margin: 20px 40px;
   justify-content: space-between;
 }
-
 .occasion-child-container {
   width: 30%;
 }
-
 .occasion-image {
   width: 100%;
   height: auto;
 }
 
+/* <!-- Best Sellers Section...........................................  --> */
 .sellers-nav-bar {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0px 450px;
-  margin-bottom: 20px;
+  column-gap: 10px;
+  margin: 0px 460px;
 }
-
 .sellers-container {
   display: flex;
   padding: 0px 50px;
 }
-
 .sellers-images {
   width: 250px;
   height: auto;
 }
-
 .left-right-arrow {
   height: 50px;
   margin-top: 130px;
@@ -262,8 +257,21 @@ a {
   padding: 20px;
   height: auto;
 }
+.footer-title {
+color: white;
+text-align: center;
+font-size: 30px;
+margin: 0px;
+}
+.footer-sub-title {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px;
+}
 
-.action-container {
+
+.action-container-footer {
   text-align: center;
   padding: 25px 0px;
 }
@@ -271,20 +279,17 @@ a {
   width: 40%;
   padding: 14px;
 }
-
 .submit-btn {
   width: 10%;
   padding: 14px;
   background-color: red;
   color: white;
 }
-
 .footer-link {
   background-color: hsla(48, 74%, 92%, 1);
   height: auto;
   margin: 0px 30px;
 }
-
 .links-flex {
   display: flex;
   flex-wrap: wrap;
@@ -295,12 +300,10 @@ a {
   color: hsla(0, 0%, 14%, 1);
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .heading {
   font-size: 20px;
   color: hsla(0, 0%, 14%, 1);
 }
-
 .company-logo {
   margin: 20px 140px;
   justify-content: space-between;
@@ -317,13 +320,11 @@ a {
   margin: 30px 0px;
   padding: 30px 0px;
 }
-
 .card-flex {
-  margin: 0px 20px;
+  margin: 20px 20px;
   display: flex;
   justify-content: space-between;
 }
-
 .btn-card {
   height: auto;
   width: 23%;
@@ -333,16 +334,18 @@ a {
 }
 
 /* First Look Section Style.................................... */
+.first-look-main-container {
+    margin: 20px 0px;
+}
 .first-look-container {
   display: flex;
   justify-content: space-between;
   padding: 0px 30px;
+  margin: 20px 0px;
 }
-
 .child-containers {
   width: 18%;
 }
-
 .first-look-images {
   width: 100%;
 }
@@ -355,7 +358,6 @@ a {
   text-align: center;
   padding: 80px 250px;
 }
-
 .source-text {
   color: rgba(36, 36, 36, 1);
   padding: 25px 0px;
@@ -367,12 +369,11 @@ a {
   background-image: url("assets/Layer\ 2\ copy\ 3.png");
   padding: 40px 0px;
 }
-
 .huse-seson-container {
   display: flex;
   padding: 0px 80px;
   flex-wrap: wrap;
   row-gap: 30px;
   justify-content: space-between;
-  margin-top: 10px;
+  margin: 20px 0px;
 }

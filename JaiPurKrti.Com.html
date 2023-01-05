@@ -7,6 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="HeadetStyle.css" />
     <link rel="stylesheet" href="PhoneView.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div>
@@ -101,28 +115,55 @@
       </div>
 
       <div class="show-in-mobileView">
-       <div class="moibile-nav-bar">
-        <div class="cross-icon-container">
-          <img class="cross-icon" src="assets/cross-icon.png" alt="">
+        <div class="moibile-nav-bar">
+          <div class="cross-icon-container">
+            <img class="cross-icon" src="assets/cross-icon.png" alt="" />
+          </div>
+          <ul class="imp-links">
+            <li class="link"><a href="">New Arrivals</a></li>
+            <li class="link"><a href="">Kurtas & Kurtis</a></li>
+            <li class="link"><a href="">Ethenic wear sets</a></li>
+            <li class="link"><a href="">Bottom wear</a></li>
+            <li class="link"><a href="">Lounge wear</a></li>
+            <li class="link"><a href="">Fusion wear</a></li>
+            <li class="link"><a href="">Sale</a></li>
+            <li class="link"><a href="">Collections</a></li>
+            <li class="link"><a href="">Plus-size</a></li>
+            <li class="link"><a href="">Exclusive</a></li>
+          </ul>
         </div>
-        <ul class="imp-links">
-          <li class="link"><a href="">New Arrivals</a></li>
-          <li class="link"><a href="">Kurtas & Kurtis</a></li>
-          <li class="link"><a href="">Ethenic wear sets</a></li>
-          <li class="link"><a href="">Bottom wear</a></li>
-          <li class="link"><a href="">Lounge wear</a></li>
-          <li class="link"><a href="">Fusion wear</a></li>
-          <li class="link"><a href="">Sale</a></li>
-          <li class="link"><a href="">Collections</a></li>
-          <li class="link"><a href="">Plus-size</a></li>
-          <li class="link"><a href="">Exclusive</a></li>
-        </ul>
-       </div>
       </div>
 
-      <!-- background-image after nav bar....................... -->
-      <div>
-        <img class="background-image" src="assets/banner.png" alt="" />
+      <!-- background-image after nav bar ....................... -->
+      <!-- With OWL CAROUSEL..................................... -->
+      <div class="owl-carousel owl-theme">
+        <div class="bg-container">
+          <img class="background-image" src="assets/banner.png" alt="" />
+          <div class="right-arrow-container">
+            <img class="arrow" src="assets/next.png" alt="" />
+          </div>
+          <div class="left-arrow-container">
+            <img class="arrow" src="assets/next.png" alt="" />
+          </div>
+        </div>
+        <div class="bg-container">
+          <img class="background-image" src="assets/banner.png" alt="" />
+          <div class="right-arrow-container">
+            <img class="arrow" src="assets/next.png" alt="" />
+          </div>
+          <div class="left-arrow-container">
+            <img class="arrow" src="assets/next.png" alt="" />
+          </div>
+        </div>
+        <div class="bg-container">
+          <img class="background-image" src="assets/banner.png" alt="" />
+          <div class="right-arrow-container">
+            <img class="arrow" src="assets/next.png" alt="" />
+          </div>
+          <div class="left-arrow-container">
+            <img class="arrow" src="assets/next.png" alt="" />
+          </div>
+        </div>
       </div>
 
       <!-- SPECIAL DEALS Section......................................... -->
@@ -137,6 +178,7 @@
         </div>
       </div>
 
+      <!-- PIC YOUR MOOD.................................... -->
       <div>
         <p class="main-title">PIC YOUR MOOD</p>
         <div>
@@ -170,6 +212,28 @@
 
       <div class="new-arrivals">
         <p class="main-title">New Arrivals</p>
+        <div class="owl-carousel owl-theme">
+          <div class="images-container">
+            <img class="arrivals-images" src="assets/Image 13.png" alt="">
+            <p class="kurta-name">Anarkali Kurta</p>
+          </div>
+          <div class="images-container">
+            <img class="arrivals-images" src="assets/Image 14.png" alt="">
+            <p class="kurta-name">Tunic Bottom Set</p>
+          </div>
+          <div class="images-container">
+            <img class="arrivals-images" src="assets/Image 15.png" alt="">
+            <p class="kurta-name">Skirts</p>
+          </div>
+          <div class="images-container">
+            <img class="arrivals-images" src="assets/Image 13.png" alt="">
+            <p class="kurta-name">Tunic Bottom Set</p>
+          </div>
+          <div class="images-container">
+            <img class="arrivals-images" src="assets/Image 14.png" alt="">
+            <p class="kurta-name">Anarkali Kurta</p>
+          </div>
+          </div>
       </div>
 
       <!-- Curvy Style................................................... -->
@@ -213,7 +277,7 @@
 
       <!-- STYLES FOR EVERY OCCASION.......................................... -->
 
-      <div>
+      <div class="main-occasion-container">
         <p class="main-title">STYLES FOR EVERY OCCASION</p>
         <p class="sub-title">
           This season embraces your wardrobe with new intricate designed apparel
@@ -235,45 +299,51 @@
       </div>
 
       <!-- Best Sellers Section...........................................  -->
-      <!-- <div>
+      <div>
         <p class="main-title">
           Bestsellers
         </p>
-        <ul class="sellers-nav-bar">
-          <li><a href="">Kurta</a></li>
-          |
-          <li><a href="">Kurta Set</a></li>
-          |
-          <li><a href="">Dresses</a></li>
-          |
-          <li><a href="">Bottom</a></li>
-        </ul>
+          <ul class="sellers-nav-bar">
+            <li><a href="">Kurta</a></li>
+            |
+            <li><a href="">Kurta Set</a></li>
+            |
+            <li><a href="">Dresses</a></li>
+            |
+            <li><a href="">Bottom</a></li>
+          </ul>
 
         <div class="sellers-container">
-          <div>
+          <!-- <div>
             <img class="left-right-arrow" src="assets/Group 10.png" alt="" />
-          </div>
-          <div>
-            <img class="sellers-images" src="assets/Image 23.png" alt="" />
-            <img class="sellers-images" src="assets/Group 5.png" alt="" />
-          </div>
-          <div>
-            <img class="sellers-images" src="assets/Image 24.png" alt="" />
-            <img class="sellers-images" src="assets/Group 6.png" alt="" />
-          </div>
-          <div>
-            <img class="sellers-images" src="assets/Image 25.png" alt="" />
-            <img class="sellers-images" src="assets/Group 7.png" alt="" />
-          </div>
-          <div>
-            <img class="sellers-images" src="assets/Image 26.png" alt="" />
-            <img class="sellers-images" src="assets/Group 8.png" alt="" />
-          </div>
-          <div>
+          </div> -->
+          <div class="owl-carousel owl-theme">
+            <div>
+              <img class="sellers-images" src="assets/Image 23.png" alt="" />
+              <img class="sellers-images" src="assets/Group 5.png" alt="" />
+            </div>
+            <div>
+              <img class="sellers-images" src="assets/Image 24.png" alt="" />
+              <img class="sellers-images" src="assets/Group 6.png" alt="" />
+            </div>
+            <div>
+              <img class="sellers-images" src="assets/Image 25.png" alt="" />
+              <img class="sellers-images" src="assets/Group 7.png" alt="" />
+            </div>
+            <div>
+              <img class="sellers-images" src="assets/Image 26.png" alt="" />
+              <img class="sellers-images" src="assets/Group 8.png" alt="" />
+            </div>
+            <div>
+              <img class="sellers-images" src="assets/Image 24.png" alt="" />
+              <img class="sellers-images" src="assets/Group 6.png" alt="" />
+            </div>
+            </div>
+          <!-- <div>
             <img class="left-right-arrow" src="assets/Group 9.png" alt="" />
-          </div>
+          </div> -->
         </div>
-      </div> -->
+      </div>
 
       <!-- HUES OF THE SEASON............................................ -->
 
@@ -292,7 +362,7 @@
 
       <!-- First Look Section......................................... -->
 
-      <div>
+      <div class="first-look-main-container">
         <p class="main-title">Get a first look</p>
         <p class="sub-title">Shop from Instagram @jaipurkurti</p>
 
@@ -358,13 +428,13 @@
 
       <div class="footer">
         <div>
-          <p class="main-title">SIGN UP TO ENVISION JAIPUR CULTURES</p>
-          <p class="sub-title">
+          <p class="footer-title">SIGN UP TO ENVISION JAIPUR CULTURES</p>
+          <p class="footer-sub-title">
             Get exclusive access to our latest offers, new launches, style tips
             and much more.
           </p>
         </div>
-        <div class="action-container">
+        <div class="action-container-footer">
           <input
             class="input-box"
             type="text"
@@ -419,17 +489,50 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script>
-      const showNav = document.querySelector('#showMobileNav');
-      const hideNav = document.querySelector('.cross-icon')
-      const div = document.querySelector('.show-in-mobileView');
-      showNav.addEventListener('click', () => {
-          div.style.display = 'block';
+      const showNav = document.querySelector("#showMobileNav");
+      const hideNav = document.querySelector(".cross-icon");
+      const div = document.querySelector(".show-in-mobileView");
+
+      // Show Side nav bar when click on side nav icon
+      showNav.addEventListener("click", () => {
+        div.style.display = "block";
       });
-      hideNav.addEventListener('click', ()=>{
-        div.style.display = 'none';
-      })
+
+      // Hide side nav bar when click on cross icon
+      hideNav.addEventListener("click", () => {
+        div.style.display = "none";
+      });
+
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
     </script>
   </body>
 </html>
