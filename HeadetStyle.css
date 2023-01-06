@@ -54,7 +54,6 @@ body {
   width: 100%;
   padding: 12px;
   border-radius: 12px;
-  margin-right: -40px;
   background-color: rgba(251, 247, 234, 1);
 }
 .input-container {
@@ -72,6 +71,7 @@ body {
 .flex-container {
   display: flex;
   margin: 20px 20px;
+  text-align: left;
   column-gap: 20px;
 }
 .inner-flex {
@@ -114,25 +114,6 @@ a {
 }
 
 /* back ground image............................... */
-.bg-container {
-  position: relative;
-}
-.right-arrow-container {
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  right: 20px;
-}
-.left-arrow-container {
-  position: absolute;
-  top: 55%;
-  bottom: 45%;
-  left: 20px;
-  transform: rotate(180deg);
-}
-.arrow {
-  width: 80%;
-}
 
 /* pic your mood................ */
 .group-image-container {
@@ -159,23 +140,32 @@ a {
   width: 100%;
 }
 .owl-carousel {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 /* <!-- Curvy Style................................................... --> */
 .curvy-style {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   height: auto;
   width: 100%;
-  margin-bottom: 50px;
+  margin: 50px 0px;
 }
 .first-child {
-  width: 48%;
-  padding: 40px;
+  width: 45%;
+  padding: 30px;
 }
-.second-child {
-  width: 48%;
+.curvy-title {
+  font-size: 30px;
+  color: #242424;
+  text-align: left;
+  margin: 0px;
+}
+.curvy-sub-title {
+  text-align: left;
+  margin: 20px 0px;
+  color: #545454;
 }
 .inner-child {
   display: flex;
@@ -190,28 +180,42 @@ a {
   padding: 10px 30px;
   width: 100%;
 }
-.plus-size-image {
+.plus-size-image-container {
   position: relative;
 }
+.plus-size-image {
+  width: 80%;
+}
+
 .lotus-image-container {
   position: absolute;
   bottom: -40px;
   left: -150px;
 }
+.con {
+  width: 48%;
+}
 .second-child {
   position: relative;
-  top: 150px;
 }
-.child-image {
+.child-image1 {
   position: absolute;
-  bottom: 0px;
-  top: 0px;
-  right: 200px;
+  top: 150px;
+  text-align: right;
+}
+.child-image2 {
+  position: absolute;
+}
+.image2 {
+  width: 80%;
+}
+.image22 {
+  width: 70%;
 }
 
 /* style for every-occasion section................ */
 .main-occasion-container {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 .every-occasion {
   display: flex;
@@ -237,18 +241,21 @@ a {
   padding: 0px 50px;
   position: relative;
 }
-
 .owl-prev {
-    position: absolute;
-    left: 0;
-    bottom: 280px;
-
+  position: absolute;
+  left: 0;
+  font-size: 80px !important;
+  z-index: 999;
+  bottom: 50%;
+  color: #faf4dd !important;
 }
-
 .owl-next {
-    position: absolute;
-    right: 0;
-    bottom: 280px;
+  position: absolute;
+  right: 0;
+  font-size: 80px !important;
+  color: #faf4dd !important;
+  z-index: 999;
+  bottom: 50%;
 }
 
 /* <!-- Footer....................................... --> */
@@ -259,18 +266,18 @@ a {
   height: auto;
 }
 .footer-title {
-color: white;
-text-align: center;
-font-size: 30px;
-margin: 0px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
 }
 .footer-sub-title {
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    margin: 0px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin: 0px;
+  padding-left: 20px;
 }
-
 
 .action-container-footer {
   text-align: center;
@@ -288,16 +295,13 @@ margin: 0px;
 }
 .footer-link {
   background-color: hsla(48, 74%, 92%, 1);
-  height: auto;
-  margin: 0px 30px;
+  margin: 0px 40px;
 }
 .links-flex {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 80px;
-  padding-right: 100px;
-  padding-top: 40px;
   justify-content: space-between;
+  padding: 30px;
   color: hsla(0, 0%, 14%, 1);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -336,7 +340,7 @@ margin: 0px;
 
 /* First Look Section Style.................................... */
 .first-look-main-container {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 .first-look-container {
   display: flex;

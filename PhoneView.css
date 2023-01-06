@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .side-nav-icon {
     height: 30px;
     width: 30px;
@@ -13,6 +13,7 @@
 
   .show-in-mobile {
     display: block;
+    margin-top: 5px;
   }
 
   .search-container {
@@ -21,20 +22,24 @@
   }
 
   .search-input {
-    padding: 5px;
+    padding: 3px;
     border-radius: 10px;
-    margin-right: -100px;
+    width: 100%;
+    /* margin-right: -100px; */
   }
 
   .inner-flex {
-    column-gap: 5px;
+    column-gap: 2px;
     margin-top: 10px;
   }
 
   .profile-icon {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+  }
+  .heart-logo {
+    height: 10px;
   }
 
   .action-container {
@@ -42,7 +47,7 @@
   }
 
   .image-container {
-    width: 100%;
+    width: 60%;
   }
 
   /* Nav-Bar in phone view .............. */
@@ -58,6 +63,7 @@
     width: 70%;
     height: auto;
     position: fixed;
+    z-index: 999;
     background-color: white;
     height: max-content;
     top: 0px;
@@ -169,18 +175,47 @@
     width: 100%;
     padding: 10px;
   }
-
+  .plus-size-image-container {
+    margin-left: 70px;
+  }
   .inner-child {
     flex-direction: column;
     row-gap: 20px;
   }
-
   .shop-plus-size {
     width: 80%;
+  }
+  .con {
+    width: 100%;
+  }
+  .child-image1 {
+    bottom: 0px;
+    text-align: right;
+    position: static;
+  }
+  .image2 {
+    width: 100%;
+  }
+  .image22 {
+    width: 100%;
+  }
+  .second-child {
+    position: static;
+  }
+  .child-image2 {
+    position: static;
   }
 
   /* <!-- Best Sellers Section...........................................  --> */
   .sellers-nav-bar {
     margin: 0px 20px;
+  }
+  .owl-prev {
+    font-size: 50px !important;
+    bottom: 50%;
+  }
+  .owl-next {
+    font-size: 50px !important;
+    bottom: 50%;
   }
 }

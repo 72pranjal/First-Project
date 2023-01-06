@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="HeadetStyle.css" />
     <link rel="stylesheet" href="PhoneView.css" />
+    <link rel="stylesheet" href="TabView.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -136,33 +137,15 @@
 
       <!-- background-image after nav bar ....................... -->
       <!-- With OWL CAROUSEL..................................... -->
-      <div class="owl-carousel owl-theme">
+      <div class="owl-carousel owl-banner">
         <div class="bg-container">
           <img class="background-image" src="assets/banner.png" alt="" />
-          <div class="right-arrow-container">
-            <img class="arrow" src="assets/next.png" alt="" />
-          </div>
-          <div class="left-arrow-container">
-            <img class="arrow" src="assets/next.png" alt="" />
-          </div>
         </div>
         <div class="bg-container">
           <img class="background-image" src="assets/banner.png" alt="" />
-          <div class="right-arrow-container">
-            <img class="arrow" src="assets/next.png" alt="" />
-          </div>
-          <div class="left-arrow-container">
-            <img class="arrow" src="assets/next.png" alt="" />
-          </div>
         </div>
         <div class="bg-container">
           <img class="background-image" src="assets/banner.png" alt="" />
-          <div class="right-arrow-container">
-            <img class="arrow" src="assets/next.png" alt="" />
-          </div>
-          <div class="left-arrow-container">
-            <img class="arrow" src="assets/next.png" alt="" />
-          </div>
         </div>
       </div>
 
@@ -212,7 +195,7 @@
 
       <div class="new-arrivals">
         <p class="main-title">New Arrivals</p>
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-arrivals">
           <div class="images-container">
             <img class="arrivals-images" src="assets/Image 13.png" alt="" />
             <p class="kurta-name">Anarkali Kurta</p>
@@ -241,9 +224,9 @@
       <div class="curvy-style">
         <div class="first-child">
           <div>
-            <p class="main-title">THE CURVY STYLES</p>
+            <p class="curvy-title">THE CURVY STYLES</p>
             <div>
-              <p class="sub-title">
+              <p class="curvy-sub-title">
                 Sensual, feminine and Bold, the plus size range of Jaipur Kurti
                 is all about making ethnic wear fun again! From cotton kurti and
                 party wear kurtas to stunning loungewear pieces and festive
@@ -255,8 +238,8 @@
             <div class="shop-plus-size">
               <button class="shop-button">Shop Plus Size</button>
             </div>
-            <div class="plus-size-image">
-              <img src="assets/Image 19.png" alt="" />
+            <div class="plus-size-image-container">
+              <img class="plus-size-image" src="assets/Image 19.png" alt="" />
               <div class="lotus-image-container">
                 <img
                   class="lotus-image"
@@ -267,10 +250,18 @@
             </div>
           </div>
         </div>
-        <div class="second-child">
-          <!-- <img src="assets/d025ca6fa7198973346bd7855deb2946.png" alt=""> -->
-          <div class="child-image">
-            <!-- <img src="assets/Image 18.png" alt=""> -->
+        <div class="con">
+          <div class="second-child">
+            <div class="child-image1">
+              <img
+                class="image2"
+                src="assets/d025ca6fa7198973346bd7855deb2946.png"
+                alt=""
+              />
+            </div>
+            <div class="child-image2">
+              <img class="image22" src="assets/Image 18.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -312,7 +303,7 @@
         </ul>
 
         <div class="sellers-container">
-          <div class="owl-carousel owl-theme">
+          <div class="owl-carousel owl-sellers">
             <div>
               <img class="sellers-images" src="assets/Image 23.png" alt="" />
               <img class="sellers-images" src="assets/Group 5.png" alt="" />
@@ -437,38 +428,46 @@
 
         <div class="footer-link">
           <div class="links-flex">
-            <ul>
-              <li class="heading">Information</li>
-              <li>My account Privacy</li>
-              <li>Shipping policy</li>
-              <li>Return / Exchange policy</li>
-              <li>Term & Conditions</li>
-            </ul>
-            <ul>
-              <li class="heading">Discover</li>
-              <li>Blog</li>
-              <li>About us</li>
-              <li>Meet the founder</li>
-              <li>Contact</li>
-              <li>Store locator</li>
-              <li>Business / Wholesale</li>
-            </ul>
-            <ul>
-              <li class="heading">Quick Links</li>
-              <li>Straight</li>
-              <li>Kurta</li>
-              <li>Anarkali Kurta</li>
-              <li>Kurta Set</li>
-              <li>Palazzos Skirts</li>
-              <li>Dresses</li>
-            </ul>
-            <ul>
-              <li class="heading">Follow us</li>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Pinterest</li>
-              <li>Youtube</li>
-            </ul>
+            <div>
+              <ul>
+                <li class="heading">Information</li>
+                <li>My account Privacy</li>
+                <li>Shipping policy</li>
+                <li>Return / Exchange policy</li>
+                <li>Term & Conditions</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li class="heading">Discover</li>
+                <li>Blog</li>
+                <li>About us</li>
+                <li>Meet the founder</li>
+                <li>Contact</li>
+                <li>Store locator</li>
+                <li>Business / Wholesale</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li class="heading">Quick Links</li>
+                <li>Straight</li>
+                <li>Kurta</li>
+                <li>Anarkali Kurta</li>
+                <li>Kurta Set</li>
+                <li>Palazzos Skirts</li>
+                <li>Dresses</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li class="heading">Follow us</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Pinterest</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="company-logo">
@@ -493,38 +492,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
-    <script>
-      const showNav = document.querySelector("#showMobileNav");
-      const hideNav = document.querySelector(".cross-icon");
-      const div = document.querySelector(".show-in-mobileView");
-
-      // Show Side nav bar when click on side nav icon
-      showNav.addEventListener("click", () => {
-        div.style.display = "block";
-      });
-
-      // Hide side nav bar when click on cross icon
-      hideNav.addEventListener("click", () => {
-        div.style.display = "none";
-      });
-
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 3,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
-    </script>
+    <script src="JaipurKurti.js"></script>
   </body>
 </html>
