@@ -58,6 +58,11 @@
   .show-in-mobileView {
     display: none;
   }
+  .nav-container-in-mobile {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+  }
 
   .moibile-nav-bar {
     width: 70%;
@@ -146,8 +151,7 @@
 
   /* user source style.................................. */
   .user-source {
-    padding: 5% 10%
-
+    padding: 5% 10%;
   }
 
   /* <!-- Footer....................................... --> */
@@ -163,32 +167,33 @@
     padding: 10px;
   }
   .links-flex {
-  flex-direction: column;
+    flex-direction: column;
   }
-
-.heading {
+  .heading {
     display: none;
-}
-.list1, .list2, .list3, .list4 {
+  }
+  .list1,
+  .list2,
+  .list3,
+  .list4 {
     display: none;
-}
-
-.click-h1, .click-h2, .click-h3, .click-h4 {
+  }
+  .click-h1,
+  .click-h2,
+  .click-h3,
+  .click-h4 {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 5px;
-
-}
-.company-logo {
+  }
+  .company-logo {
     margin-top: 20px;
-}
-
+  }
 
   /* <!-- Curvy Style................................................... --> */
   .curvy-style {
     flex-direction: column;
   }
-
   .first-child {
     width: 100%;
     padding: 10px;
@@ -225,7 +230,7 @@
   }
 
   /* <!-- Best Sellers Section...........................................  --> */
-  .sellers-navbar  {
+  .sellers-navbar {
     margin: 2%;
   }
   .owl-prev {

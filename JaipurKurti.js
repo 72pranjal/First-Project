@@ -69,7 +69,6 @@ $(".owl-sellers").owlCarousel({
 });
 
 // script for mobile footer
-
 const showList1 = document.querySelector(".click-h1");
 const showList2 = document.querySelector(".click-h2");
 const showList3 = document.querySelector(".click-h3");
