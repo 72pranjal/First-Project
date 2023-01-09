@@ -67,3 +67,47 @@ $(".owl-sellers").owlCarousel({
     },
   },
 });
+
+// script for mobile footer
+
+const showList1 = document.querySelector(".click-h1");
+const showList2 = document.querySelector(".click-h2");
+const showList3 = document.querySelector(".click-h3");
+const showList4 = document.querySelector(".click-h4");
+
+const listFirst = document.querySelector(".list1");
+const listSceond = document.querySelector(".list2");
+const listThird = document.querySelector(".list3");
+const listFourth = document.querySelector(".list4");
+
+showList1.addEventListener("click", () => {
+  if (listFirst.style.display === "block") {
+    listFirst.style.display = "none";
+  } else {
+    listFirst.style.display = " block";
+  }
+});
+
+showList2.addEventListener("click", () => {
+  if (listSceond.style.display === "block") {
+    listSceond.style.display = "none";
+  } else {
+    listSceond.style.display = " block";
+  }
+});
+
+showList3.addEventListener("click", () => {
+  if (listThird.style.display === "block") {
+    listThird.style.display = "none";
+  } else {
+    listThird.style.display = " block";
+  }
+});
+
+showList4.addEventListener("click", () => {
+  if (listFourth.style.display === "block") {
+    listFourth.style.display = "none";
+  } else {
+    listFourth.style.display = " block";
+  }
+});
