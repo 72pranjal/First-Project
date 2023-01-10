@@ -74,9 +74,7 @@
   }
 
   .link {
-    border: 10px;
-    border-color: red;
-    padding: 8px;
+    padding: 12px;
     background-color: white;
     color: white;
   }
